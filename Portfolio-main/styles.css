@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(191, 237, 186);
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(146, 216, 146);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: dotted;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.05rem;
+}
+
+
+
+.leftSection {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.first div {
+    width: 22%;
+}
+
+.rightSection img {
+    height: 90%;
+    width: 120%;
+    margin: 25px;
+}
+
+.name {
+    color: blue;
+}
+
+#element {
+    color: blue;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+main hr {
+    background: rgb(5, 5, 103);
+    border: 0;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.secondSection .box {
+    background: rgb(22, 22, 164);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 66px;
+    width: 2px;
+    background-color: rgb(22, 22, 164);
+    margin: 0 159px;
+    margin-right: 56px;
+
+}
+
+
+.text1 {
+    color: rgb(76, 76, 167);
+}
+
+
+.image-top1 {
+    position: relative;
+    top: 80px;
+    height: 135%;
+}
+
+.image-top2 {
+    position: relative;
+    top: 80px;
+    height: 146%;
+    width: 117px;
+}
+
+.image-top3 {
+    position: relative;
+    top: 85px;
+    height: 131%;
+}
+
+.image-top4 {
+    position: relative;
+    top: 70px;
+    height: 148%;
+    width: 121px;
+}
+
+.image-top5 {
+    position: relative;
+    top: 85px;
+    height: 148%;
+    width: 121px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 68px;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100px;
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+    top: 20px;
+    bottom: 100px;
+}
+
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0c22b2;
+    padding: 10px 15px 11px 16px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #5252c5;
+    text-decoration: none;
+}
+
+.newSection{
+    height: 150px;
+    max-width: 80vw;
+    margin: auto;
+}

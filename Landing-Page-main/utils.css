@@ -1,0 +1,32 @@
+.flex{
+  display: flex;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.font-bold{
+  font-weight: 900;
+}
+
+.text-blue{
+  color: black;
+}
+
+.btn{
+  padding: 7px 12px;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(29, 88, 214);
+}
